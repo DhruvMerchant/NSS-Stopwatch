@@ -1,0 +1,60 @@
+
+body{
+    background-color: rgba(65, 65, 65, 0.847);
+    color:rgba(255, 242, 0, 0.909);
+}
+.stopwatch{
+    position:relative; 
+    width:32vw;
+    height: 32vw;
+    /* max-width:30rem; */
+    background-color:rgb(0, 0, 0);
+    margin: 4rem auto;
+    border-radius:50%;
+    border:solid 0.25rem;
+    border-color:rgb(185, 169, 3);
+    text-align: center;
+    /* padding: 1rem 1.5rem; */
+    /* text-align: center; */
+}
+h1{
+    position: absolute;
+    top:70%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-size:2.8vw;
+}
+h2{
+    margin: 4vw;
+    font-size:3vw;
+}
+.buttons{
+    position: absolute;
+    width: 15rem;
+    top:40%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    
+}
+.buttons i{
+    margin: 0vw auto;
+    /* margin: 0.5rem; */
+    font-size: 4vw;
+    text-decoration: none;
+    color:rgb(185, 169, 3);
+}
+
+button{
+    background-color: transparent;
+    border: none;
+}
+
+button:hover{
+    opacity: 0.7;
+    /* border: 0px; */
+}
+
+i:active{
+    color : rgb(255, 238, 0);
+}
